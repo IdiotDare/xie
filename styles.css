@@ -16,3 +16,6 @@ a:hover{
 a:visited{
     color:darkcyan;
 }
+a:link{
+    color: turquoise;
+}
