@@ -32,6 +32,8 @@ function getCookie(name) {
 let clickCookie = getCookie("clicked")
 if(clickCookie == "yes"){
     document.getElementById('maintext').innerHTML = "help";
+} else if(clickCookie == null){
+    alert('still failure fucking you are');
 } else {
     alert('fucking failure you are')//im not a failure, yay!
 }
