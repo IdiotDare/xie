@@ -1,7 +1,6 @@
 function myButton(newText){
-    let newText = "help"
-    if(document.getElementById('maintext') != newText){
-        document.getElementById('maintext') = newText;
+    if(document.getElementById('maintext').innerHTML != newText){
+        document.getElementById('maintext').innerHTML = newText;
     } else {
         document.getElementById('maintext') = 'yeetos'
     }
