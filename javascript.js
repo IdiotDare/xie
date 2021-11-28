@@ -36,4 +36,5 @@ if(clickCookie == "yes"){
     alert('still failure fucking you are');
 } else {
     alert('fucking failure you are')//im not a failure, yay!
+    document.getElementById('maintext').innerHTML = "where is that you are an idiot site";
 }
