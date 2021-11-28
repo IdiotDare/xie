@@ -1,6 +1,8 @@
-div {
+body{
     background-color: #333333;
     color: #EEEEEE;
+}
+div {
     max-width: 75%;
     max-height: 90%;
     padding :0vh 10vw 0vh 10vw;
