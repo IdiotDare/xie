@@ -30,7 +30,7 @@ function getCookie(name) {
 }
 //is my code
 let clickCookie = getCookie("clicked")
-if(clickCookie = "yes"){
+if(clickCookie == "yes"){
     document.getElementById('maintext').innerHTML = "help";
 } else {
     alert('fucking failure you are')//im not a failure, yay!
