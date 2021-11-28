@@ -8,7 +8,7 @@ function myButton(){
         document.getElementById('maintext').innerHTML = x;
     }
 }
-//if document.cookie = 
+//not my code here
 function getCookie(name) {
     // Split cookie string and get all individual name=value pairs in an array
     var cookieArr = document.cookie.split(";");
@@ -28,10 +28,10 @@ function getCookie(name) {
     // Return null if not found
     return null;
 }
-
+//is my code
 let clickCookie = getCookie("clicked")
 if(clickCookie = "yes"){
     document.getElementById('maintext').innerHTML = "help";
 } else {
-    alert('fucking failure you are')
+    alert('fucking failure you are')//im not a failure, yay!
 }
