@@ -32,9 +32,9 @@ function getCookie(name) {
 let clickCookie = getCookie("clicked")
 if(clickCookie == "yes"){
     document.getElementById('maintext').innerHTML = "help";
-} else if(clickCookie == null){
+} /*else if(clickCookie == null){
     alert('still failure fucking you are');
-} else {
+} */else {
     alert('fucking failure you are')//im not a failure, yay!
     document.getElementById('maintext').innerHTML = "where is that you are an idiot site";
 }
