@@ -4,8 +4,6 @@ body{
     width: 75vw;
     height: 90vh;
     padding :0vh 10vw 0vh 10vw;
-}
-p {
     font-size: 15px;
 }
 a:hover{
