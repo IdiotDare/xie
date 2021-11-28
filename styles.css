@@ -8,3 +8,9 @@ div {
 p {
     font-size: 12px;
 }
+a:hover{
+    color:cyan;
+}
+a:visited{
+    color:darkcyan;
+}
