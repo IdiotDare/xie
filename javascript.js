@@ -35,6 +35,6 @@ if(clickCookie == "yes"){
 } /*else if(clickCookie == null){
     alert('still failure fucking you are');
 } */else {
-    alert('fucking failure you are')//im not a failure, yay!
+    alert('This site uses cookies just saying')//im not a failure, yay!
     document.getElementById('maintext').innerHTML = "where is that you are an idiot site";
 }
